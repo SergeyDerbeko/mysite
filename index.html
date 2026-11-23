@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b12">
+  <meta name="description" content="Портфолио Сергея Дербеко — разработчика на Pawn.">
+  <title>Сергей Дербеко — Pawn Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="На главную"><span class="brand-mark">SD</span><span>sergey<span class="brand-muted">.dev</span></span></a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#about">Обо мне</a>
+      <a href="#stack">Стек</a>
+      <a href="#projects">Проекты</a>
+    </nav>
+    <a class="header-link" href="https://github.com/SergeyDerbeko" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> ПОРТФОЛИО / 2026</div>
+        <h1>Пишу код.<br><span class="gradient-text">Создаю системы.</span></h1>
+        <p class="hero-lead">Сергей Дербеко — разработчик на Pawn. Здесь собраны мои проекты, эксперименты и технические решения.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Смотреть проекты <span aria-hidden="true">↘</span></a>
+          <a class="button button-ghost" href="https://github.com/SergeyDerbeko" target="_blank" rel="noreferrer">Мой GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-label="Декоративная иллюстрация кода">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>main.pwn</small></div>
+          <div class="code-body">
+            <div><i>01</i><span class="code-purple">public</span> <span class="code-blue">OnGameModeInit</span>()</div>
+            <div><i>02</i>{</div>
+            <div><i>03</i>&nbsp;&nbsp;<span class="code-purple">print</span>(<span class="code-green">"Hello, world!"</span>);</div>
+            <div><i>04</i>&nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-orange">1</span>;</div>
+            <div><i>05</i>}</div>
+            <div class="code-cursor"><i>06</i><span></span></div>
+          </div>
+          <div class="code-footer"><span><b></b> PAWN</span><span>UTF-8&nbsp; · &nbsp;LF</span></div>
+        </div>
+        <div class="floating-tag tag-top">#pawn</div>
+        <div class="floating-tag tag-bottom">#developer</div>
+      </div>
+      <div class="hero-index"><span>01</span><span class="index-line"></span><span>04</span></div>
+    </section>
+
+    <section class="intro section-wrap reveal" id="about">
+      <div class="section-kicker">01 / ОБО МНЕ</div>
+      <div class="intro-content">
+        <h2>Интересуюсь разработкой<br>и люблю <span class="gradient-text">разбираться в деталях.</span></h2>
+        <p>Основное направление — Pawn-разработка. В этом портфолио будут появляться готовые работы, фрагменты кода и описания задач, над которыми я работал.</p>
+      </div>
+    </section>
+
+    <section class="stack-section section-wrap reveal" id="stack">
+      <div class="section-heading">
+        <div><div class="section-kicker">02 / ИНСТРУМЕНТЫ</div><h2>Технологии</h2></div>
+        <p>Инструменты и направления,<br>с которыми связано портфолио.</p>
+      </div>
+      <div class="stack-grid">
+        <div class="stack-item"><span class="stack-number">01</span><div><strong>Pawn</strong><small>Основной язык</small></div><span class="stack-symbol">⌘</span></div>
+        <div class="stack-item"><span class="stack-number">02</span><div><strong>SA-MP / open.mp</strong><small>Игровые серверы</small></div><span class="stack-symbol">◇</span></div>
+        <div class="stack-item"><span class="stack-number">03</span><div><strong>Git & GitHub</strong><small>Контроль версий</small></div><span class="stack-symbol">⌥</span></div>
+        <div class="stack-item"><span class="stack-number">04</span><div><strong>HTML / CSS / JS</strong><small>Веб-интерфейсы</small></div><span class="stack-symbol">↗</span></div>
+      </div>
+    </section>
+
+    <section class="projects-section section-wrap reveal" id="projects">
+      <div class="section-heading">
+        <div><div class="section-kicker">03 / ИЗБРАННОЕ</div><h2>Проекты<span class="heading-dot">.</span></h2></div>
+        <span class="project-count">0 опубликовано</span>
+      </div>
+      <div class="empty-projects">
+        <div class="empty-icon"><span>＋</span></div>
+        <div><h3>Здесь скоро будут работы</h3><p>Пока в репозитории нет добавленных проектов. Когда материалы будут готовы, здесь появятся карточки с описанием, технологиями, скриншотами и ссылками на исходный код.</p></div>
+        <a href="https://github.com/SergeyDerbeko?tab=repositories" target="_blank" rel="noreferrer" aria-label="Открыть репозитории GitHub">↗</a>
+      </div>
+    </section>
+
+    <section class="contact section-wrap reveal">
+      <div class="contact-glow"></div>
+      <div class="section-kicker">04 / СВЯЗЬ</div>
+      <h2>Есть идея или<br><span class="gradient-text">интересный проект?</span></h2>
+      <p>Посмотрите мои репозитории на GitHub или свяжитесь со мной удобным способом, указанным в профиле.</p>
+      <a class="button button-primary" href="https://github.com/SergeyDerbeko" target="_blank" rel="noreferrer">Перейти в GitHub <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a class="brand" href="#top"><span class="brand-mark">SD</span><span>sergey<span class="brand-muted">.dev</span></span></a>
+    <span>© <span id="year">2026</span> Сергей Дербеко</span>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+</body>
+</html>
